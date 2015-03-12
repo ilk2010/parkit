@@ -1,0 +1,18 @@
+<ion-view view-title="ParkIt">
+    <ion-content class="padding" data-tap-disabled="true">
+        <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+            <ui-gmap-marker
+                idKey='"id"'
+                coords="marker"
+                options="marker.options"
+                >
+            </ui-gmap-marker>
+            <ui-gmap-marker
+                idKey='"id"'
+                coords="myPosition"
+                options="myPosition.options"
+                >
+            </ui-gmap-marker>
+        </ui-gmap-google-map>
+    </ion-content>
+</ion-view>
